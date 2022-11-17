@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Audiowide", sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+ .enroll-body{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+} 
+.enroll-form{
+    width: 100%;
+    text-align: center;
+}
+
+.enroll-form p{
+    padding: 10px;
+    text-indent: 1px;
+    margin: 10px 0;
+}
+label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding: 10px;
+}
+/* more styles added to beautify the input fields */
+input {
+    margin: 0.25em 0em 1em 0em;
+    outline: none;
+    padding: 1em;
+    border: none;
+    background-color: rgb(225, 225, 225);
+    border-radius: 0.25em;
+    color: black;
+  }
+/* styles for button */
+button {
+    padding: 1em;
+    border: none;
+    outline: none;
+    
+    background-color: rgb(68, 18, 232);
+    color: white;
+    border-radius: 0.25em;
+  }
+  
+  /* hover functionality for button */
+  button:hover {
+    cursor: pointer;
+    background-color: rgb(41, 4, 164);
+  }
+    
+  .enroll-details{
+    width: 100%;
+    padding: 10px;
+  }
+  .enroll-form h1{
+    margin: 10px 0;
+    font-size: 2em;
+  }
+  .enroll-details h1{
+    margin: 10px 0;
+    font-size: 2em;
+  }
+  table{
+    
+    margin: 10px 0px;
+  }
+  li{
+    list-style: none;
+  }
+  table,th,td{
+border: 1px  solid #333;
+text-align: center;
+padding: 10px;
+border-collapse: collapse;
+  }
+
+  
+
+  img {
+    height: 10rem;
+  }

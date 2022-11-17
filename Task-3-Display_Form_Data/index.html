@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrollment Form</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="design.css">
+</head>
+
+<body>
+    <header>Student Enrollment Form</header>
+    <section class="enroll-body">
+        <section class="enroll-form">
+            <h1>Enrollment Form</h1>
+            <form action="" id="form" onsubmit="GetData(event);">
+                <p> <label for="name">Name:</label> <input required type="text" name="" id="name" /></p>
+                <p> <label for="email">Email:</label> <input required type="email" name="" id="email" /></p>
+                <p> <label for="website">Website:</label> <input required type="text" name="" id="web-link" /></p>
+                <p> <label for="image">Image Link:</label> <input type="text" name="" id="img-link" /></p>
+                <p>
+
+                    <label for="gender">Gender:</label> <input type="radio" name="gender" value="male" id="male" />Male
+                    <input type="radio" name="gender" value="female" id="" />Female</p>
+                <p> <label for="skills">Skills:</label> <input type="checkbox" name="skills" value="C" class="skills"
+                        id="female">C <input type="checkbox" name="skills" value="C++" class="skills" id="">C++ <input
+                        type="checkbox" name="skills" class="skills" value="JAVA" id="">JAVA <input type="checkbox"
+                        class="skills" name="skills" value="Python" id="">Python <input type="checkbox" name="skills"
+                        value="JavaScript" class="skills" id="">JavaScript
+                    <input type="checkbox" name="skills" value="GoLang" class="skills" id="">GoLang
+                </p>
+
+
+
+
+                <button>Enroll Student</button> <button id="clear">Clear</button>
+            </form>
+        </section>
+        <section class="enroll-details">
+            <h1>Enrolled Students</h1>
+            <table>
+                <thead>
+                    <tr class="heads">
+                        <th>Description</th>
+                        <th>Image</th>
+                    </tr>
+                </thead>
+                <tbody id="display">
+
+                </tbody>
+            </table>
+        </section>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
