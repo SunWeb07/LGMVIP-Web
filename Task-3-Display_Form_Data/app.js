@@ -75,8 +75,8 @@ displayData = (ArrayValue = undefined)=>{
                     <h3>Name: ${val.fname}</h3>
                 </li>
                 <li>Gender: ${val.gender}</li>
-                <li>Mail: ${val.mail}</li>
-                <li>Website: ${val.web_link}</li>
+                <li>Mail: <a href=${val.mail}>${val.mail}</a></li>
+                <li>Website: <a href=${val.web_link}>${val.web_link}</a> </li>
                 <li>Skills: ${val.checkval}</li> 
             </ul>
         </td>
